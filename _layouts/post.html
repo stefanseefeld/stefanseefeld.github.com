@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% capture head %}{% include head.html %}{% endcapture %}
+    {{ head }}
+  </head>
+  <body>
+    <div class="header">
+      {% capture header %}{% include header.md %}{% endcapture %}
+      {{ header | markdownify }}
+    </div>
+    <div class="container">
+      <div class="row">
+	<div class="one-third column menu">
+	  {% capture menu %}{% include menu.md %}{% endcapture %}
+	  {{ menu | markdownify }}
+	</div>
+	<div class="two-thirds column">
+	  <h4>{{page.title}}</h4>
+	  {{ content }}
+	  {% assign category_urls = "" | split: "" %}
+	  {% for category in page.categories %}
+	  {% assign category_url = '<a href="/category/name.html">name</a>' | replace: 'name', category %}
+	  {% assign category_urls = category_urls | push: category_url %}
+	  {% endfor %}
+	  <p>posted in: {{ category_urls | join: ', ' }}</p>
+	</div>
+      </div>
+    </div>
+    <div class="footer">
+      {% capture footer %}{% include footer.md %}{% endcapture %}
+      {{ footer | markdownify }}
+    </div>
+  </body>
+</html>

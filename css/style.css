@@ -1,0 +1,59 @@
+@import url('normalize.css');
+@import url('skeleton.css');
+@import url('pygments.css');
+
+html *
+{
+  font-family: Georgia, "Bitstream Charter", serif;  
+}
+
+a:link,
+a:visited,
+a:hover
+{
+  text-decoration: none;
+  color: #b12930;
+}
+
+.header
+{
+  margin: 2em;
+  text-align: center;
+}
+.header h3
+{
+  display: inline-block;
+  border-bottom: thin solid #ddd;
+  padding: 0 2em;
+}
+.footer
+{
+  text-align: center;
+  color: #ccc;
+}
+.footer p { margin: 0;}
+
+.menu h3
+{
+  font-size: 2rem;
+  font-family: Verdana,sans-serif;
+  letter-spacing: .05em;
+  line-height: 1.9091;
+  text-transform: uppercase;
+  color: #777;
+}
+.menu ul,
+ul.posts
+{
+  list-style: none;
+}
+
+.menu ul li,
+ul.posts li
+{
+  margin: 0;
+}
+
+ul { list-style: disc;}
+
+code { background: #fff;}

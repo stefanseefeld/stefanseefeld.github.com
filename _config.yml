@@ -1,0 +1,3 @@
+permalink: /:year-:month-:day/:title.html
+baseurl:
+markdown: kramdown
