@@ -24,6 +24,7 @@
 	  {% assign category_urls = category_urls | push: category_url %}
 	  {% endfor %}
 	  <p>posted in: {{ category_urls | join: ', ' }}</p>
+	  {% include disqus.html %}
 	</div>
       </div>
     </div>
