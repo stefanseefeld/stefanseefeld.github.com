@@ -33,9 +33,10 @@ a:hover
 }
 .footer p { margin: 0;}
 
+.menu { border-right: thin solid #ddd;}
 .menu h3
 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: Verdana,sans-serif;
   letter-spacing: .05em;
   line-height: 1.9091;
