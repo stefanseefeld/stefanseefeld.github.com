@@ -11,10 +11,6 @@
     </div>
     <div class="container">
       <div class="row">
-	<div class="one-third column menu">
-	  {% capture menu %}{% include menu.md %}{% endcapture %}
-	  {{ menu | markdownify }}
-	</div>
 	<div class="two-thirds column">
 	  <h4>{{page.title}}</h4>
 	  {{ content }}
@@ -25,6 +21,10 @@
 	  {% endfor %}
 	  <p>posted in: {{ category_urls | join: ', ' }}</p>
 	  {% include disqus.html %}
+	</div>
+	<div class="one-third column menu">
+	  {% capture menu %}{% include menu.md %}{% endcapture %}
+	  {{ menu | markdownify }}
 	</div>
       </div>
     </div>

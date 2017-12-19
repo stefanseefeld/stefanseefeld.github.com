@@ -17,14 +17,14 @@ a:hover
 
 .header
 {
-  margin: 2em;
+  margin: 1em;
   text-align: center;
 }
 .header h3
 {
   display: inline-block;
   border-bottom: thin solid #ddd;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 .footer
 {
@@ -33,7 +33,11 @@ a:hover
 }
 .footer p { margin: 0;}
 
-.menu { border-right: thin solid #ddd;}
+.menu
+{
+  padding-left: 1em;
+  border-left: thin solid #ddd;
+}
 .menu h3
 {
   font-size: 1.5rem;

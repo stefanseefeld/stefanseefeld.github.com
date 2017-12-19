@@ -11,4 +11,4 @@ post_format:
 - Image
 ---
 
-[![fire_voces_boreales_poster](/images/2017-05-30-voces-boreales-elements-ii-fire/fire.png)](http://vocesboreales.org/fire)
+[![fire_voces_boreales_poster](/images/2017-05-30-voces-boreales-elements-ii-fire/fire.png)](http://vocesboreales.org/elements-ii-fire/)

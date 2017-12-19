@@ -1,3 +1,4 @@
 permalink: /:year-:month-:day/:title.html
+url: http://stefan.seefeld.name
 baseurl:
 markdown: kramdown
