@@ -8,7 +8,7 @@ comments: false
 
   * Email: stefan at seefeld dot name
   * Public Keys: [GPG](gpg), [SSH](ssh)	
-  * Alter egos: [work](http://www.codesourcery.com), [linkedin](http://ca.linkedin.com/in/stefanseefeld), [advogato](http://advogato.org/person/stefan/), [ohloh](http://www.ohloh.net/accounts/stefans), [g+](https://plus.google.com/+StefanSeefeld)
+  * Alter egos: [work](http://www.thinksurgical.com), [linkedin](http://ca.linkedin.com/in/stefanseefeld), [advogato](http://advogato.org/person/stefan/), [ohloh](http://www.ohloh.net/accounts/stefans), [g+](https://plus.google.com/+StefanSeefeld)
 
 ### Main Interests
 
