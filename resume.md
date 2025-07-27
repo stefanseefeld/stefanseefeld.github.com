@@ -1,51 +1,50 @@
 ---
 comments: false
-date: 2017-12-14 14:03:54+00:00
+date: 2025-07-27 13:35:54+00:00
 layout: page
 ---
 
 # Résumé
 
-* About 20 years experience writing advanced system level and scientific code in C++, in the industry, an academic setting, and in the free software community
-* Through scientific background and experience with a wide range of languages and techniques very proficient with domain-specific modeling and design.
-* Very experienced with portable, i.e. platform independent development. This applies as much to the source code as to the infrastructure (building, testing, packaging).
-* Experience with Medical Imaging software development, as well as standardization work.
+* About 30 years of experience developing advanced system level and scientific software in the industry, an academic setting, and in the free software community
+* Through scientific background and experience with a wide range of languages and techniques, very proficient with domain-specific modeling and design
+* Very experienced with portable, platform independent development, from prototyping over testing to deployment
+* Experience with medical software development, as well as standardization work
 * Many years of experience in mentoring developers and coordinating projects
 
 ## Skills
+### Software Engineering:
 
-* Software Engineering:
-  * Programming languages:
-    * C++, Python, Perl, C, Java, IDL, XML, XSL, SQL, sh
-  * Scientific programming:
-    * Molecular dynamics in biomembranes
-    * Stochastic simulations: Monte Carlo, Brownian Dynamics, Reaction Diffusion Systems
-    * Nonlinear dynamics, numerical solutions of differential equations
-    * Scientific visualization in 2D and 3D
+* Programming languages:
+  C++, Python, Java, bash, ...
+* Scientific programming:
+  Molecular dynamics, Monte Carlo, Dynamical Systems, Signal- and Image Processing
+* System programming:
+  * Embedded Systems (Yocto), GNU/Linux, Windows
+  * Distributed Systems (IPC, RPC, HTTP, sockets)
+  * Parallelism (SIMD, threads, OpenMP, MPI, CUDA)
+  * Libraries and frameworks: Qt, VTK, boost, SciPy, Jupyter
+* Software engineering and project administration:
+  * OOP, OOA/D, UML, Multi-Paradigm design, Generic Programming
+  * Project coordination and administration using github, bitbucket, JIRA, ...
+  * Daily use of development tools like git, gcc, cmake, python, jupyter, postgresql, docbook, docker
+* Standardization work
+  * Chair [HPEC Working Group](http://portals.omg.org/hpec) at OMG
+  * Maintain [VSIPL](http://www.omg.org/spec/VSIPL/) / [VSIPL++](http://www.omg.org/spec/VSIPL++/) standards
 
-  * System programming:
-    * Distributed systems: CORBA
-    * POSIX, IPC, RPC
-    * SIMD, threads, OpenMP, MPI, CUDA
-    * Graphics: X, openGL
-    * Libraries and frameworks: Qt, OpenSceneGraph, boost, ACE
-    * System level programming on platforms such as GNU/Linux, IRIX, Solaris, MS Windows
-
-  * Software engineering and project administration:
-    * OOP, OOA/D, UML
-    * Multi-Paradigm design, Generic Programming
-    * Project coordination and administration using svn, mailman, various bug tracking systems and task managers
-    * Daily use of development tools like gcc, make, autotools, git, svn, flex, bison, python, perl, sh, postgresql, docbook
-
-  * Standardization work
-    * Chair [HPEC Working Group](http://portals.omg.org/hpec) at OMG
-    * Maintain [VSIPL](http://www.omg.org/spec/VSIPL/) / [VSIPL++](http://www.omg.org/spec/VSIPL++/) standards
-
-* Languages:
+### Languages
   * German, English, French:
     spoken fluently and daily
 
 ## Experience
+
+[THINK Surgical](http://thinksurgical.com) (2018 – present)
+
+**Principal Software Engineer**
+
+* Design and develop build infrastructure and software supply-chain management 
+* Design and develop 3D tracker simulator and test methodology for navigation software system
+* Design interfaces and data models for patient records and implant modules, to support entire workflow from preoperative planning to post-market surveillance
 
 [Continuum Analytics](http://www.anaconda.com/) (2015 - 2017)
 
@@ -114,19 +113,15 @@ Synopsis is a modular source code inspection tool, mainly designed to generate r
 
 ## Education
 
-* Université de Montréal (Sep 1996 - Dec 2000)
+* Université de Montréal (1996 - 2000)
 
   graduate studies in biophysics about ion transport through biological membranes
 
-* Humboldt Universität zu Berlin (Sep 1993 - Aug 1996)
+* Humboldt Universität zu Berlin (1993 - 1996)
 
   M.Sc. Physics, _Cluster Formation in Non-Equilibrium Systems_
 
-* Université Laval, Québec (Sep 1992 - Apr 1993)
-
-  study trip to Québec
-
-* Humboldt Universität zu Berlin (Sep 1989 - Jul 1992)
+* Humboldt Universität zu Berlin (1989 - 1992)
 
   B.Sc. Physics
 
